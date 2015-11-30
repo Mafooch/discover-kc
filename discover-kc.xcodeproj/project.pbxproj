@@ -12,6 +12,7 @@
 		DDFAED931C0CF7B30008C2F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFAED911C0CF7B30008C2F7 /* Main.storyboard */; };
 		DDFAED951C0CF7B30008C2F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDFAED941C0CF7B30008C2F7 /* Assets.xcassets */; };
 		DDFAED981C0CF7B30008C2F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDFAED961C0CF7B30008C2F7 /* LaunchScreen.storyboard */; };
+		DDFAEDA01C0CFF420008C2F7 /* HomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFAED9F1C0CFF420008C2F7 /* HomeButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DDFAED941C0CF7B30008C2F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDFAED971C0CF7B30008C2F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDFAED991C0CF7B30008C2F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFAED9F1C0CFF420008C2F7 /* HomeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				DDFAED8D1C0CF7B30008C2F7 /* AppDelegate.swift */,
 				DDFAED8F1C0CF7B30008C2F7 /* ViewController.swift */,
 				DDFAED911C0CF7B30008C2F7 /* Main.storyboard */,
+				DDFAED9F1C0CFF420008C2F7 /* HomeButton.swift */,
 				DDFAED941C0CF7B30008C2F7 /* Assets.xcassets */,
 				DDFAED961C0CF7B30008C2F7 /* LaunchScreen.storyboard */,
 				DDFAED991C0CF7B30008C2F7 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDFAED901C0CF7B30008C2F7 /* ViewController.swift in Sources */,
+				DDFAEDA01C0CFF420008C2F7 /* HomeButton.swift in Sources */,
 				DDFAED8E1C0CF7B30008C2F7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
