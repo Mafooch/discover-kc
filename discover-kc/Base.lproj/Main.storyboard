@@ -21,29 +21,29 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skyline" translatesAutoresizingMaskIntoConstraints="NO" id="BsI-aT-VTs">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3h6-1K-NG7">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3h6-1K-NG7">
                                 <rect key="frame" x="20" y="20" width="297" height="165"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CULTURE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3e1-B2-qtf">
-                                        <rect key="frame" x="0.0" y="0.0" width="92" height="25"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="297" height="25"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BARBECUE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vCD-Ok-VM4">
-                                        <rect key="frame" x="0.0" y="35" width="109" height="25"/>
+                                        <rect key="frame" x="0.0" y="35" width="297" height="25"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COFFEE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Me-WA-IRj">
-                                        <rect key="frame" x="0.0" y="69" width="78" height="25"/>
+                                        <rect key="frame" x="0.0" y="69" width="297" height="25"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HIPSTERS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4CD-8c-frd">
-                                        <rect key="frame" x="0.0" y="104" width="102" height="25"/>
+                                        <rect key="frame" x="0.0" y="104" width="297" height="25"/>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="20"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -55,23 +55,33 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
+                                <variation key="heightClass=compact" spacing="0.0"/>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="aqH-KB-zIz">
-                                <rect key="frame" x="191" y="216" width="219" height="31"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="aqH-KB-zIz">
+                                <rect key="frame" x="191" y="216" width="245" height="31"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K8t-qo-ZSx" customClass="HomeButton" customModule="discover_kc" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="107" height="31"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="120" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="16K-XT-pMo"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
                                         <state key="normal" title="Find Out More">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fg0-O9-Luw" customClass="HomeButton" customModule="discover_kc" customModuleProvider="target">
-                                        <rect key="frame" x="112" y="0.0" width="107" height="31"/>
+                                        <rect key="frame" x="125" y="0.0" width="120" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="120" id="CKe-oH-U9J"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
                                         <state key="normal" title="Pics">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="9lh-Hg-pTt" kind="show" id="Lrh-Uz-a3O"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -103,8 +113,52 @@
             </objects>
             <point key="canvasLocation" x="245" y="305"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="oqE-tG-IWE">
+            <objects>
+                <viewController id="9lh-Hg-pTt" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UcW-gc-aNx"/>
+                        <viewControllerLayoutGuide type="bottom" id="87i-Ud-1JD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cSn-B6-bhP">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fountain" translatesAutoresizingMaskIntoConstraints="NO" id="FTz-nZ-Hqa">
+                                <rect key="frame" x="300" y="150" width="300" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oddly" translatesAutoresizingMaskIntoConstraints="NO" id="2iB-B1-8V3">
+                                <rect key="frame" x="0.0" y="300" width="600" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="quay" translatesAutoresizingMaskIntoConstraints="NO" id="RUy-jK-dyD">
+                                <rect key="frame" x="0.0" y="150" width="300" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kauffman" translatesAutoresizingMaskIntoConstraints="NO" id="t2K-XY-FYd">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baldwin" translatesAutoresizingMaskIntoConstraints="NO" id="kAO-IE-kuK">
+                                <rect key="frame" x="300" y="450" width="300" height="150"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bbq" translatesAutoresizingMaskIntoConstraints="NO" id="aFC-3S-PSj">
+                                <rect key="frame" x="0.0" y="450" width="300" height="150"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tZf-US-GWu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879" y="305"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="baldwin" width="500" height="333"/>
+        <image name="bbq" width="450" height="338"/>
+        <image name="fountain" width="960" height="641"/>
+        <image name="kauffman" width="1000" height="667"/>
+        <image name="oddly" width="1300" height="750"/>
+        <image name="quay" width="420" height="315"/>
         <image name="skyline" width="2048" height="1024"/>
     </resources>
 </document>
