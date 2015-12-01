@@ -125,45 +125,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f6A-xg-BBC">
-                                <rect key="frame" x="-20" y="-20" width="7680" height="750"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="f6A-xg-BBC">
+                                <rect key="frame" x="-20" y="-20" width="600" height="600"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="w4t-Ma-eMc">
-                                        <rect key="frame" x="0.0" y="0.0" width="1920" height="750"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="w4t-Ma-eMc">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="kauffman" translatesAutoresizingMaskIntoConstraints="NO" id="t2K-XY-FYd">
-                                                <rect key="frame" x="0.0" y="0.0" width="1920" height="750"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="kauffman" translatesAutoresizingMaskIntoConstraints="NO" id="t2K-XY-FYd">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WEU-VJ-crO">
-                                        <rect key="frame" x="1920" y="0.0" width="1920" height="750"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="WEU-VJ-crO">
+                                        <rect key="frame" x="0.0" y="150" width="600" height="150"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="quay" translatesAutoresizingMaskIntoConstraints="NO" id="RUy-jK-dyD">
-                                                <rect key="frame" x="0.0" y="0.0" width="960" height="750"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="quay" translatesAutoresizingMaskIntoConstraints="NO" id="RUy-jK-dyD">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="fountain" translatesAutoresizingMaskIntoConstraints="NO" id="FTz-nZ-Hqa">
-                                                <rect key="frame" x="960" y="0.0" width="960" height="750"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="fountain" translatesAutoresizingMaskIntoConstraints="NO" id="FTz-nZ-Hqa">
+                                                <rect key="frame" x="300" y="0.0" width="300" height="150"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="G8E-A3-y9n">
-                                        <rect key="frame" x="3840" y="0.0" width="1920" height="750"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="G8E-A3-y9n">
+                                        <rect key="frame" x="0.0" y="300" width="600" height="150"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="oddly" translatesAutoresizingMaskIntoConstraints="NO" id="2iB-B1-8V3">
-                                                <rect key="frame" x="0.0" y="0.0" width="1920" height="750"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="oddly" translatesAutoresizingMaskIntoConstraints="NO" id="2iB-B1-8V3">
+                                                <rect key="frame" x="0.0" y="0.0" width="600" height="150"/>
                                             </imageView>
                                         </subviews>
                                         <variation key="heightClass=regular" axis="vertical"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PK4-Og-8Oz">
-                                        <rect key="frame" x="5760" y="0.0" width="1920" height="750"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="PK4-Og-8Oz">
+                                        <rect key="frame" x="0.0" y="450" width="600" height="150"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="bbq" translatesAutoresizingMaskIntoConstraints="NO" id="aFC-3S-PSj">
-                                                <rect key="frame" x="0.0" y="0.0" width="960" height="750"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="bbq" translatesAutoresizingMaskIntoConstraints="NO" id="aFC-3S-PSj">
+                                                <rect key="frame" x="0.0" y="0.0" width="300" height="150"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="baldwin" translatesAutoresizingMaskIntoConstraints="NO" id="kAO-IE-kuK">
-                                                <rect key="frame" x="960" y="0.0" width="960" height="750"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="baldwin" translatesAutoresizingMaskIntoConstraints="NO" id="kAO-IE-kuK">
+                                                <rect key="frame" x="300" y="0.0" width="300" height="150"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -180,9 +180,13 @@
                             <constraint firstAttribute="trailing" secondItem="f6A-xg-BBC" secondAttribute="trailing" id="AOb-qT-lde"/>
                             <constraint firstAttribute="bottom" secondItem="f6A-xg-BBC" secondAttribute="bottom" id="GC6-db-XlM"/>
                             <constraint firstItem="f6A-xg-BBC" firstAttribute="leading" secondItem="cSn-B6-bhP" secondAttribute="leading" id="S73-aA-Vka"/>
+                            <constraint firstItem="f6A-xg-BBC" firstAttribute="leading" secondItem="cSn-B6-bhP" secondAttribute="leading" id="SW9-Tm-Pnv"/>
                             <constraint firstItem="f6A-xg-BBC" firstAttribute="top" secondItem="cSn-B6-bhP" secondAttribute="top" id="T8Z-xt-l0C"/>
                             <constraint firstAttribute="trailing" secondItem="f6A-xg-BBC" secondAttribute="trailing" id="WXf-P9-Kcj"/>
                             <constraint firstItem="f6A-xg-BBC" firstAttribute="leading" secondItem="cSn-B6-bhP" secondAttribute="leading" id="beg-iB-nbh"/>
+                            <constraint firstAttribute="trailing" secondItem="f6A-xg-BBC" secondAttribute="trailing" id="g7l-6I-mpT"/>
+                            <constraint firstItem="f6A-xg-BBC" firstAttribute="top" secondItem="cSn-B6-bhP" secondAttribute="top" id="qQJ-Xt-M9q"/>
+                            <constraint firstAttribute="bottom" secondItem="f6A-xg-BBC" secondAttribute="bottom" id="rXE-wM-pzc"/>
                             <constraint firstItem="f6A-xg-BBC" firstAttribute="top" secondItem="cSn-B6-bhP" secondAttribute="top" id="tfw-Dv-BdU"/>
                         </constraints>
                         <variation key="default">
