@@ -11,7 +11,7 @@ import UIKit
 class HomeButton: UIButton {
     
     override func awakeFromNib() {
-        layer.borderWidth = 1.0
+        layer.borderWidth = 4.0
         layer.borderColor = UIColor(white: 1.0, alpha: 0.5).CGColor
     }
 }
